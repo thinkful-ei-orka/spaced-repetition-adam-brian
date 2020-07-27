@@ -82,6 +82,7 @@ describe(`User story: Register an account`, function() {
         cy.get('#registration-password-input')
           .type(newUser.password)
         cy.root().submit()
+        
 
         cy.wait('@postRegister')
           .get('[role=alert]')
