@@ -1,10 +1,19 @@
+.signin-button{
+    margin-top: 20px;
+    background-color: #7a8ed8;
+    font-size: 125%;
+    border-style: solid;
+    border-color: #3951a8;
+    border-radius: 15%;
+    border-top: 2px;
+    border-left: 2px;    
+}
 form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-
 .outerbox{
     background-color: #9bd9e7;
     border: 5px double #3951a8;
@@ -16,14 +25,10 @@ form{
     background-color: #9bd9e7;
 }
 
-.Required{
-    background-color: #9bd9e7;
-}
-
 .Input{
     background-color: #d1f1f8;
 }
-.registration{
+.login{
     background-color: #9bd9e7;
     width: 40vw;
     display: flex;
@@ -32,23 +37,5 @@ form{
     
 }
 
-.footer{
-    margin-top: 20px;
-    width: 65vw;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.signup-button{
-    background-color: #7a8ed8;
-    font-size: 125%;
-    border-style: solid;
-    border-color: #3951a8;
-    border-radius: 15%;
-    border-top: 2px;
-    border-left: 2px;    
-}
-
 @media only screen and (max-width: 600px) { 
-.registration {flex-direction: column;}}
+    .login {flex-direction: column;}}

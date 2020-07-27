@@ -1,6 +1,9 @@
-section.formContainer {
-  display:flex;
-  flex-direction:column;
-  justify-content: space-evenly;
-  align-items: center;
+h2{
+    text-align: center;
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
 }
