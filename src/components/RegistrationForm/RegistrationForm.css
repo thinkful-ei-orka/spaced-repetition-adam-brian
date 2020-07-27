@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+form.registration {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  height:25vh;
+}
