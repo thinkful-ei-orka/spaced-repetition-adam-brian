@@ -40,7 +40,7 @@ class RegistrationForm extends Component {
   render() {
     const { error } = this.state
     return (
-      <form className='registration'
+      <form
         onSubmit={this.handleSubmit}
       >
         <section className='outerbox'>
