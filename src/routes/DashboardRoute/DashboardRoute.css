@@ -22,12 +22,13 @@
 
 .under-word{
     margin-left: 5vw;
-    width: 75vw;
+    width: 79vw;
     border: #9bd9e7 double 5px;
 }
 
 .detail-box{
     border: #3951a8 double 3px;
+    margin-bottom: 8px;
 }
 
 .spacer{
