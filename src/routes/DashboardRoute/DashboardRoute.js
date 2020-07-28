@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LanguageService from '../../services/language-service';
+import './DashboardRoute.css'
 
 class DashboardRoute extends Component {
   constructor(props) {
@@ -18,22 +19,26 @@ class DashboardRoute extends Component {
 
   render() {
     return (
-      <section>
+      <section className='dashboard-body'>
         <h2>{this.state.language.name}</h2>
-        {`Total correct answers: ${this.state.language.total_score}`}
+        <div className='under-headers'></div>
+        <p>{`Total correct answers: ${this.state.language.total_score}`}</p>
 
 
-        <a href='/learn'>Start practicing</a>
+        <a className='practice-link' href='/learn'>Start practicing</a>
 
-        <h3>Words to practice</h3>
+        <h3 className='words-practice'>Words to practice</h3>
+        <div className='under-headers'></div>
+        <div className='spacer'></div> 
         {
           this.state.words.map((word, i) =>
-            <li key={`word ${i}`}>
-              <h4>
+            <li className='detail-box' key={`word ${i}`}>
+              <h4 className='word'>
                 {word.original}
               </h4>
-              <p>{`correct answer count: ${word.correct_count}`}</p>
-              <p>{`incorrect answer count: ${word.incorrect_count}`}</p>
+              <div className='under-word'></div>
+              <p className='answer-count'>{`correct answer count: ${word.correct_count}`}</p>
+              <p className='answer-count'>{`incorrect answer count: ${word.incorrect_count}`}</p>
             </li>
           )
         }
