@@ -12,6 +12,17 @@ const LanguageService = {
     }).then(res => res.json())
       .catch(error => console.log(error));
   },
+
+  getWordData() {
+    return fetch(`${config.API_ENDPOINT}/language/head`, {
+      method: 'GET',
+      headers: {
+        'authorization': `Bearer ${TokenService.getAuthToken()}`,
+        'content-type': 'application/json',
+      }
+    }).then(res => res.json())
+      .catch(error => console.log(error));
+  },
 };
 
 export default LanguageService;
