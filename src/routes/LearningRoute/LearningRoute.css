@@ -1,0 +1,39 @@
+.page-header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65vw;
+    border: #3951a8 double 5px;
+}
+
+.total-score{
+ 
+}
+
+.answer-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    border: #3951a8 double 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#learn-guess-label{
+
+}
+
+#learn-guess-input{
+    margin-top: 10px;
+background-color: #9bd9e7;
+}
+
+.submit-button{
+    margin-top: 15px;
+    background-color: #7a8ed8;
+    font-size: 125%;
+    border-style: solid;
+    border-color: #3951a8;
+    border-radius: 15%;
+    border-top: 2px;
+    border-left: 2px;
+}
