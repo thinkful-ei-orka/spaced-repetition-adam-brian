@@ -1,12 +1,9 @@
 .page-header{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
     width: 65vw;
     border: #3951a8 double 5px;
-}
-
-.total-score{
- 
 }
 
 .answer-form{
@@ -16,10 +13,6 @@
     border: #3951a8 double 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-#learn-guess-label{
-
 }
 
 #learn-guess-input{
@@ -37,3 +30,27 @@ background-color: #9bd9e7;
     border-top: 2px;
     border-left: 2px;
 }
+
+.nextWordButton{
+    margin-top: 15px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    width: 40vw;
+    background-color: #7a8ed8;
+    font-size: 125%;
+    border-style: solid;
+    border-color: #3951a8;
+    border-radius: 15%;
+    border-top: 2px;
+    border-left: 2px;
+}
+
+.test-word-div{
+    display: block;
+    text-align: center;
+}
+
+.test-word{
+    font-size: 125%;
+}
+

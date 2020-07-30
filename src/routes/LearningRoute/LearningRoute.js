@@ -65,14 +65,17 @@ class LearningRoute extends Component {
   render() {
     return (
       <section>
+        <div className='test-word-div'>
         {this.state.toggle ? null :
-          <h2>
+        
+          <h2 className='translate'>
             Translate the word:
           </h2>
         }
-        <span>
+        <span className='test-word'>
           {this.state.wordData.nextWord}
         </span>
+        </div>
         <div className='page-header'></div>
         <div className='total-score'></div>
         {this.state.toggle ?
