@@ -44,7 +44,7 @@ class Header extends Component {
       <header>
         <h1>
           <Link to='/'>
-            Rosetta repetition
+            Rosetta Repetition
           </Link>
         </h1>
         {TokenService.hasAuthToken()
